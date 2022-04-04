@@ -53,3 +53,41 @@ body {
   background-color: #04aa6d;
   color: white;
 }
+
+.search {
+  text-align: center;
+  padding: 5px;
+}
+.cities {
+  display: flexbox;
+  grid-template-areas: "select";
+  align-items: center;
+  position: relative;
+  min-width: 25ch;
+  max-width: 40ch;
+  border: 1px solid whitesmoke;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1.1;
+}
+
+.search button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+  display: contents;
+  width: 200px;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
