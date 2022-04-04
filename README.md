@@ -26,8 +26,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+These are the instructions on setting up your project locally.
 
 ### Prerequisites
 
@@ -46,13 +45,13 @@ _For running the project please follow the following commands._
    ```sh
    git clone https://github.com/karandeepParashar/WeatherApp.git
    ```
-2. Install NPM packages
+2. Enter the project directory.
+   ```sh
+   cd [-your-directory-]
+   ```
+3. Install NPM packages
    ```sh
    npm install
-   ```
-3. Enter the project directory
-   ```js
-    node simple_server.js
    ```
 4. run the webserver
    ```js
