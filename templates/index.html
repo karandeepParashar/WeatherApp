@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link
+      rel="stylesheet"
+      href="/static/style/single_city.css"
+      type="text/css"
+    />
+    <script src="/static/scripts/single_city.js" defer></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="#">Single Search</a>
+      <a href="http://localhost:3000/my-weather-app/multiple-search"
+        >Multiple Search</a
+      >
+    </div>
+    <div class="search">
+      <input type="text" class="search-input" placeholder="Search" />
+      <button>Search</button>
+    </div>
+    <div class="weatherReport">
+      <h1 class="city">City Name</h1>
+      <table class="table-data">
+        <tr>
+          <th>Field</th>
+          <th>Data</th>
+        </tr>
+        <tr>
+          <td>Main</td>
+          <td class="main">Clear</td>
+        </tr>
+        <tr>
+          <td>Description</td>
+          <td class="description">Clear Sky</td>
+        </tr>
+        <tr>
+          <td>Temp</td>
+          <td class="temp">85.6</td>
+        </tr>
+        <tr>
+          <td>Pressure</td>
+          <td class="pressure">1024</td>
+        </tr>
+        <tr>
+          <td>Humidity</td>
+          <td class="humidity">100</td>
+        </tr>
+        <tr>
+          <td>Speed</td>
+          <td class="speed">24</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

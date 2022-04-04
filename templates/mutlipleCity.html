@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application</title>
+    <link
+      rel="stylesheet"
+      href="/static/style/multiple_cities.css"
+      type="text/css"
+    />
+    <script src="/static/scripts/multiple_cities.js" defer></script>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="http://localhost:3000/my-weather-app/single-search"
+        >Single Search</a
+      >
+      <a class="active" href="#">Multiple Search</a>
+    </div>
+    <div class="search">
+      <label for="cities">Choose cities:</label>
+      <select name="cities" class="cities" multiple>
+        <option value="Pittsburgh">Pittsburgh</option>
+        <option value="New York">New York</option>
+        <option value="Boston">Boston</option>
+        <option value="San Jose">San Jose</option>
+        <option value="San Diego">San Diego</option>
+
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="Chicago">Chicago</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="Washington">Washington</option>
+        <option value="Phoenix">Phoenix</option>
+      </select>
+      <button>Search</button>
+    </div>
+    <div class="weatherReport">
+      <table class="table-data">
+        <tr>
+          <th>City Name</th>
+          <th>Main</th>
+          <th>Description</th>
+          <th>Temp</th>
+          <th>Pressure</th>
+          <th>Humidity</th>
+          <th>Speed</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
