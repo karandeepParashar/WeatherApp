@@ -32,6 +32,8 @@ These are the instructions on setting up your project locally.
 
 Following are the prerequisites for running the project. Please have npm and node installed. Below is the link if you don't have it already installed.
 
+The webserver runs on the port 3000, it should not be preoccupied for the server to run.
+
 - npm and node
   ```sh
   https://nodejs.org/en/download/
@@ -54,8 +56,11 @@ _For running the project please follow the following commands._
    npm install
    ```
 4. run the webserver
+
    ```js
    node simple_server.js
    ```
+
+5. Open your chrome or Microsoft Edge browser to url: `http://localhost:3000/my-weather-app/single-search`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
